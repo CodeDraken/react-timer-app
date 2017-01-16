@@ -9,7 +9,6 @@ const Main = ( props ) => {
         <Navigation />
       </header>
       <main>
-        <p>Main</p>
         {props.children}
       </main>
       <Footer />

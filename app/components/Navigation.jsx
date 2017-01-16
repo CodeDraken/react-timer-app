@@ -14,7 +14,7 @@ const Navigation = () => {
             <IndexLink to="/" activeClassName="active">Timer</IndexLink>
           </li>
           <li>
-            <Link to="/" activeClassName="active">Countdown</Link>
+            <Link to="/countdown" activeClassName="active">Countdown</Link>
           </li>
         </ul>
         <ul className="side-nav" id="nav-collapse">
@@ -22,7 +22,7 @@ const Navigation = () => {
             <IndexLink to="/" activeClassName="active">Timer</IndexLink>
           </li>
           <li>
-            <Link to="/" activeClassName="active">Countdown</Link>
+            <Link to="/countdown" activeClassName="active">Countdown</Link>
           </li>
         </ul>
       </div>
