@@ -3,6 +3,10 @@ $clock-text-color: #fff;
 $clock-bg-color: #B5D0E2;
 $clock-border-color:#2099E8;
 
+.w100 {
+  width: 100%;
+}
+
 .app-wrapper {
   display: flex;
   min-height: 100vh;
@@ -42,3 +46,8 @@ nav ul a.active {
   font-size: 2.25rem;
   font-weight: 300;
 }
+
+// .countdown__form {
+//   margin: 0 auto;
+//   width: 50%;
+// }
