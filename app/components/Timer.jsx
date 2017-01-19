@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
+import Clock from 'Clock';
 
 class Timer extends Component {
   render() {
-    return ( <p>Timer</p> );
+    return (
+      <Clock />
+    );
   }
 }
 
