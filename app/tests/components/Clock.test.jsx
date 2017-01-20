@@ -1,9 +1,8 @@
-var React = require( 'react' );
-var ReactDOM = require( 'react-dom' );
-var expect = require( 'expect' );
-var $ = require( 'jquery' );
-var TestUtils = require( 'react-addons-test-utils' );
-
+import expect from 'expect';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import TestUtils from 'react-addons-test-utils';
+import $ from 'jquery';
 import Clock from 'Clock';
 
 describe( 'Clock', () => {
