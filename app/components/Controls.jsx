@@ -9,7 +9,6 @@ class Controls extends Component {
   }
 
   render() {
-   
     let { countdownStatus } = this.props;
     let renderStartStopButton = () => {
       if ( countdownStatus === 'started' ) {
@@ -24,11 +23,11 @@ class Controls extends Component {
     };
 
     return (
-      <div>
+      <div className="control__form">
         {renderStartStopButton()}
         <button onClick={this.onStatusChange('stopped')} className="waves-effect waves-light btn red">Clear</button>
       </div>
-    )
+    );
   }
 
 }
