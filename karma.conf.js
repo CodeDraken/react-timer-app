@@ -7,6 +7,7 @@ module.exports = function(config) {
     frameworks: ['mocha'],
     files: [
       'node_modules/jquery/dist/jquery.min.js',
+      'node_modules/materialize-css/dist/js/materialize.min.js',
       'app/tests/**/*.test.jsx'
     ],
     preprocessors: {

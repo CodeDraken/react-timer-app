@@ -3,7 +3,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import TestUtils from 'react-addons-test-utils';
 import $ from 'jquery';
-import Clock from 'Clock';
 
 import Controls from 'Controls';
 
