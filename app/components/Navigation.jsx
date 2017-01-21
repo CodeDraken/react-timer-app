@@ -1,11 +1,14 @@
 import React from 'react';
 import { Link, IndexLink } from 'react-router';
 
-const Navigation = () => {
+const Navigation = (props) => {
+  const page = window.location.hash.split('#/').join('');
+  const title = page.length > 0 ? page.charAt(0).toUpperCase() + page.slice(1) : 'React Timer App';
+
   return (
     <nav className="deep-purple lighten-1">
       <div className="nav-wrapper">
-        <a href="#" className="brand-logo center">React Timer</a>
+        <a href={'#/' + page} className="brand-logo center">{title}</a>
         <a href="#" data-activates="nav-collapse" className="button-collapse hide-on-med-and-up">
           <i className="material-icons">menu</i>
         </a>
