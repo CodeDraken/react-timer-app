@@ -1,3 +1,3 @@
 # React Timer App
-Simple React timer app
-View it on Heroku:
+
+View it on Heroku: http://salty-stream-93564.herokuapp.com/
